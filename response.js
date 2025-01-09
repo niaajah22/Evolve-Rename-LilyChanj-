@@ -398,7 +398,7 @@ case 'ttsearch': {
     
     let lily = await tiktoksearch(`${text}`);
     await lilychan.sendMessage(m.key.remoteJid, {
-    video: { url: lily.media.no_watermark },
+    video: { url: lily.media[0].no_watermark },
     caption: lily.title,
     footer: "© Ɩylꪱc𝗁α𝗇 ხᦢƚ",
     buttons: [{
