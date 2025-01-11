@@ -12,24 +12,24 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const time = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')
 
 //====== [ SETTING PAIRING & TOKEN ] ========//
-global.pairing = '--'
+global.pairing = '6283137404029'
 //====== [ SETTING OWNER  ] ========//
-global.owner = [ '--', '--' ]
-global.owner0 = '--@s.whatsapp.net'
-global.ownernumber = '--'
-global.ownername = "森晓伟 Domp"
+global.owner = [ '62831374040299', '6283899616999' ]
+global.owner0 = '62831374040299@s.whatsapp.net'
+global.ownernumber = '62831374040299'
+global.ownername = "EvolveDev"
 //====== [ SETTING BOT ] ========//
-global.botname = 'Lilychanj Bot'
-global.botnumber = '--'
+global.botname = 'Evobotz'
+global.botnumber = '62831374040299'
 global.bot_version = '1.1.0'
 global.prefa = ['/','!','.','#','&']
 //====== [ SETTING PACKNAME ] ========//
-global.packname = 'ׄ 𓄯ִ ── ꯭𐑈ƚꪱִ𝖼𝗄ᧉׄ𝗋 ᎓  lylꪱc𝗁α𝗇 ხᦢƚ  '
-global.author = `Crᧉׄdı๋𝗍 : 森晓伟 ταიακαdοოρ.ხiz.id\nAt ${hariini}\n${time}`
+global.packname = 'ׄ'
+global.author = `Crᧉׄdı๋𝗍 : EvolveBotz \ndibuat pada: ${hariini} - ${time}`
 global.themeemoji = '🍁'
-global.wm = " TanakaSense.js."
-global.idch = '--@newsletter'
-global.titlech = '--'
+global.wm = "Evolve.js."
+global.idch = '0@newsletter'
+global.titlech = 'WhatsApp? -'
 //====== [ THEME URL & URL ] ========//
 global.thumbnail = 'https://files.catbox.moe/p4g53y.jpg'
 global.Url = 'https://whatsapp.com/channel/0029VaW25g5F1YlKczMRmd1h'
